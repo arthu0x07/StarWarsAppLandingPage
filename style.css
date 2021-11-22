@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+.wrap{
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.conteiner-header{
+    width: 100%;
+
+    position: relative;
+}
+
+.header-image{
+    width: 100%;
+    height: 100%;
+
+    background-position: center;
+}
+
+.conteiner-itens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: auto;
+
+    position: absolute;
+    top: 0%;
+}
+
+.header-texto-star{
+    width: 25%;
+    position: relative;
+    left: 30%;
+}
+
+.header-imagem-bonecao{
+    width: 70%;
+    position: relative;
+    right: 2%;
+
+    z-index: 9;
+}
+
+.header-texto-wars{
+    width: 25%;
+    position: relative;
+    right: 18%;
+}
+
+.conteiner-header-legiao{
+    background-color: rgb(86, 12, 206);
+    width: 10%;
+    height: 10%;
+
+    position: absolute;
+    top: 60%;
+    right: 10%;
+
+    z-index: 19;
+}
+
+
+
+
+
+.conteiner-section-estrutura{
+    width: 100%;
+}
+
+.imagemCantoMain{
+    width: 40%;
+}
