@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -57,15 +59,30 @@
 }
 
 .conteiner-header-legiao{
-    background-color: rgb(86, 12, 206);
-    width: 10%;
+    width: auto;
     height: 10%;
 
+    padding-bottom: 6%;
+    border-bottom: 4px solid black;
+
     position: absolute;
-    top: 60%;
+    top: 62%;
     right: 10%;
 
     z-index: 19;
+}
+
+.conteiner-header-legiao h2{
+    font-size: 1.5vw;
+    font-family: 'Open Sans';
+    font-weight: 600;
+
+}
+
+.conteiner-header-legiao span{
+    font-size: 1.5vw;
+    font-family: 'Open Sans';
+    font-weight: 800;
 }
 
 
@@ -78,4 +95,22 @@
 
 .imagemCantoMain{
     width: 40%;
+}
+
+/* Prezando responsividade para telas maiores... */
+@media (min-width: 1920px) {
+    .conteiner-header-legiao{
+        /* Ajustei a largura do conteiner*/
+        padding-bottom: 120px;
+        right: 10%;
+        width: auto;
+    }
+        /* Travei a fonte quando chega na largura máxima... */
+    .conteiner-header-legiao h2{
+        font-size: 30px;
+    }
+
+    .conteiner-header-legiao span{
+        font-size: 30px;
+    }
 }
