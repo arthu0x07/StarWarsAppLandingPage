@@ -26,7 +26,7 @@
     background-position: center;
 }
 
-.conteiner-itens{
+.header-content-position{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,11 +59,8 @@
 }
 
 .conteiner-header-legiao{
-    width: auto;
+    width: 10%;
     height: 10%;
-
-    padding-bottom: 6%;
-    border-bottom: 4px solid black;
 
     position: absolute;
     top: 62%;
@@ -72,17 +69,8 @@
     z-index: 19;
 }
 
-.conteiner-header-legiao h2{
-    font-size: 1.5vw;
-    font-family: 'Open Sans';
-    font-weight: 600;
-
-}
-
-.conteiner-header-legiao span{
-    font-size: 1.5vw;
-    font-family: 'Open Sans';
-    font-weight: 800;
+.header-legiao-image{
+    width: 100%;
 }
 
 
@@ -91,11 +79,81 @@
 
 .conteiner-section-estrutura{
     width: 100%;
+    position: relative;
 }
 
 .imagemCantoMain{
     width: 40%;
 }
+
+.main-content-position{
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0%;
+}
+
+.main-cardVermelhoNotext{
+    position: absolute;
+
+    width: 20%;
+
+    top: -4%;
+    left: 14%;
+
+    z-index: 10;
+}
+
+.main-cardAboutGame{
+    position: absolute;
+
+    width: 44%;
+
+    top: 20%;
+    right: 10%;
+}
+
+.main-divisor{
+    position: absolute;
+
+    width: 76%;
+
+    top: 45%;
+    right: 9.98%;
+}
+
+.main-imagem-personagem1{
+    position: absolute;
+
+    width: 40%;
+
+    top: 50%;
+    left: 15%;
+}
+
+.main-conteinerLinks{
+    position: absolute;
+
+    width: 24%;
+
+    top: 55%;
+    left: 42%;
+}
+
+.main-imagem-personagem2{
+    position: absolute;
+
+    width: 19%;
+
+    top: 55%;
+    right: 14%;
+}
+
+
+
 
 /* Prezando responsividade para telas maiores... */
 @media (min-width: 1920px) {
