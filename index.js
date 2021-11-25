@@ -1,6 +1,3 @@
-// assets/main/CardVermelhoFundo.png
-// assets/main/CardVermelhoTexto.png
-
 const redcard = document.querySelector(".main-cardVermelhoNotext");
 
 redcard.addEventListener('mouseenter', () => {

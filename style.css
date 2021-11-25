@@ -207,6 +207,13 @@
 .container-images1 {
   width: 50%;
   height: 100%;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.container-images1:hover .content-box{
+  top: 0px;
 }
 
 .container-images1 img {
@@ -222,12 +229,14 @@
   flex-wrap: wrap;
 }
 
+
+
 .conteiner-image-overflow {
   position: relative;
   overflow: hidden;
 
-  /* width: 50%;
-  height: 50%; */
+  width: 50%;
+  height: 50%;
 }
 
 .content-box{
