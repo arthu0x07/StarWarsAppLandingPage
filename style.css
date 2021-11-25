@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 
+@font-face {
+    font-family: 'Soreveign';
+    src: url(assets/fontes/Sovereign-Regular.otf);
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -87,8 +92,6 @@
 }
 
 .main-content-position{
-    align-items: center;
-
     width: 100%;
     height: 100%;
 
@@ -153,6 +156,277 @@
 }
 
 
+.conteiner-section-atributes{
+    width: 100%;
+    height: auto;
+
+
+    background-color: #2D2D2D;
+
+    position: relative;
+    z-index: -1;
+    top: -4px;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sectionAtributes-title{
+    text-transform: uppercase;
+    
+    font-family: 'Soreveign';
+    font-style: normal;
+    font-size: 3vw;
+
+    color: #ffffff;
+
+    position: relative;
+    top: 0%;
+    left: 13%;
+
+    margin-top: 10%;
+    margin-bottom: 4%;
+}
+
+.sectionAtributes-content-position{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionAtributes-conteiner-images{
+    position: relative;
+    top: 0%;
+    
+
+    /* min-width: 720px;
+    min-height: 300px; */
+
+    width: 90%;
+    max-height: 25vw;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.container-images1{
+    width: 50%;
+    height: 100%;
+}
+
+.container-images1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.conteiner-images2{
+    width: 50%;
+    height: 100%;
+
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.conteiner-image-overflow{
+    width: 50%;
+    height: 50%;
+}
+
+
+.conteiner-image-overflow img{
+    width: 100%;
+    height: 100%;
+
+}
+
+/* Não funciona por algum motivo... */
+#teste:hover{
+    transform:scale(1.25);
+}
+
+.conteiner-hierarchy{
+    position: relative;
+    top: 0%;
+    
+    width: 90%;
+
+    margin-top: 4%;
+    margin-bottom: 2%;
+
+}
+
+.conteiner-hierarchy img{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.sectionAtributes-paragraf{
+    position: relative;
+    top: 0%;
+    right: 5%;
+
+    text-align: end;
+    align-self: flex-end;
+    
+    width: 50%;
+
+    font-family: 'Open Sans';
+    font-size: 1rem;
+   
+    z-index: 20;
+    color: #b3b3b3;
+}
+
+.section-comoJogar-title{
+    text-transform: uppercase;
+    
+    font-family: 'Soreveign';
+    font-style: normal;
+    font-size: 3vw;
+
+    margin-top: 8%;
+    margin-bottom: 8%;
+
+    color: #ffffff;
+}
+
+.section-comoJogar-boneco{
+    position: absolute;
+    bottom: -18%;
+    left: 5%;
+
+    width: 25%;
+}
+
+.conteiner-section-download{
+    width: 100%;
+    height: 1000px;
+
+    position: relative;
+
+    margin-bottom: 100vh;
+}
+
+.sectionDownload-content-position{
+    position: relative;
+    top: -1%;
+    z-index: -2;
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.conteiner-itens-download{
+    width: 60%;
+
+    position: relative;
+    top: 10%;
+    
+    margin-left: auto;
+    margin-right: 8%;
+
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #ffffff;
+
+    margin-bottom: 30%;
+}
+
+.conteiner-itens-download img{
+    width: 20%;
+}
+
+.conteiner-itens-orangeContent{
+    position: relative;
+}
+
+.testeee{
+    position: absolute;
+
+    background-color: #FF5A56;
+    width: 63%;
+    height: 700px;
+}
+
+/* .sectionDownload-background{
+    position: relative;
+    z-index: -3;
+
+    width: 63%;
+} */
+
+.sectionDownload-orangeContent-container{
+    position: absolute;
+    top: 0px;
+
+    left: 10%;
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.sectionDownload-orangeContent-title{
+    text-transform: uppercase;
+    
+    font-family: 'Soreveign';
+    font-style: normal;
+    font-size: 2vw;
+
+    color: #ffffff;
+
+    margin-top: 8%;
+}
+
+.sectionDownload-orangeContent-paragraf{
+    width: 35%;
+    margin-top: 3%;
+    
+    font-family: 'Open Sans';
+    font-size: 1.2vw;
+    font-weight: 100;
+
+    color: #ffffff;
+}
+
+.sectionDownload-orangeContent-conteinerLinks{
+    margin-top: 3%;
+    width: 35%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.sectionDownload-orangeContent-conteinerLinks img{
+    width: 49%;
+
+}
+
+.sectionDownload-orangeContent-divider{
+    margin-top: 12%;
+    width: 98% !important;
+}
+
+.sectionDownload-bonecao{
+    position: absolute;
+    right: 9%;
+    top: -10%;
+
+    width: 38%;
+}
 
 
 /* Prezando responsividade para telas maiores... */
@@ -162,6 +436,7 @@
         padding-bottom: 120px;
         right: 10%;
         width: auto;
+
     }
         /* Travei a fonte quando chega na largura máxima... */
     .conteiner-header-legiao h2{
@@ -170,5 +445,20 @@
 
     .conteiner-header-legiao span{
         font-size: 30px;
+
+    }
+
+    .sectionAtributes-title{
+        font-size: 60px;
+
+    }
+
+    .sectionAtributes-conteiner-images{
+        /* Removido tamanhos máximos... - CONFLITO */
+    }
+
+    .section-ComoJogar-title{
+        font-size: 60px;
+
     }
 }
