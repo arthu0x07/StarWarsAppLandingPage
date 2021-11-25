@@ -1,487 +1,455 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 
 @font-face {
-    font-family: 'Soreveign';
-    src: url(assets/fontes/Sovereign-Regular.otf);
+  font-family: 'Soreveign';
+  src: url(assets/fontes/Sovereign-Regular.otf);
 }
 
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-.wrap{
-    max-width: 1920px;
-    margin: 0 auto;
-    overflow: hidden;
+.wrap {
+  max-width: 1920px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
-.conteiner-header{
-    width: 100%;
+.conteiner-header {
+  width: 100%;
 
-    position: relative;
+  position: relative;
 }
 
-.header-image{
-    width: 100%;
-    height: 100%;
+.header-image {
+  width: 100%;
+  height: 100%;
 
-    background-position: center;
+  background-position: center;
 }
 
-.header-content-position{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.header-content-position {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 
-    position: absolute;
-    top: 0%;
+  position: absolute;
+  top: 0%;
 }
 
-.header-texto-star{
-    width: 25%;
-    position: relative;
-    left: 30%;
+.header-texto-star {
+  width: 25%;
+  position: relative;
+  left: 30%;
 }
 
-.header-imagem-bonecao{
-    width: 70%;
-    position: relative;
-    right: 2%;
+.header-imagem-bonecao {
+  width: 70%;
+  position: relative;
+  right: 2%;
 
-    z-index: 9;
+  z-index: 9;
 }
 
-.header-texto-wars{
-    width: 25%;
-    position: relative;
-    right: 18%;
+.header-texto-wars {
+  width: 25%;
+  position: relative;
+  right: 18%;
 }
 
-.conteiner-header-legiao{
-    width: 10%;
-    height: 10%;
+.conteiner-header-legiao {
+  width: 10%;
+  height: 10%;
 
-    position: absolute;
-    top: 62%;
-    right: 10%;
+  position: absolute;
+  top: 62%;
+  right: 10%;
 
-    z-index: 19;
+  z-index: 19;
 }
 
-.header-legiao-image{
-    width: 100%;
+.header-legiao-image {
+  width: 100%;
 }
 
-
-
-
-
-.conteiner-section-estrutura{
-    width: 100%;
-    position: relative;
+.conteiner-section-estrutura {
+  width: 100%;
+  position: relative;
 }
 
-.imagemCantoMain{
-    width: 40%;
+.imagemCantoMain {
+  width: 40%;
 }
 
-.main-content-position{
-    width: 100%;
-    height: 100%;
+.main-content-position {
+  width: 100%;
+  height: 100%;
 
-    position: absolute;
-    top: 0%;
+  position: absolute;
+  top: 0%;
 }
 
-.main-cardVermelhoNotext{
-    position: absolute;
+.main-cardVermelhoNotext {
+  position: absolute;
 
-    width: 20%;
+  width: 20%;
 
-    top: -4%;
-    left: 14%;
+  top: -4%;
+  left: 14%;
 
-    z-index: 10;
+  z-index: 10;
 }
 
-.main-cardAboutGame{
-    position: absolute;
+.main-cardAboutGame {
+  position: absolute;
 
-    width: 44%;
+  width: 44%;
 
-    top: 20%;
-    right: 10%;
+  top: 20%;
+  right: 10%;
 }
 
-.main-divisor{
-    position: absolute;
+.main-divisor {
+  position: absolute;
 
-    width: 76%;
+  width: 76%;
 
-    top: 45%;
-    right: 9.98%;
+  top: 45%;
+  right: 9.98%;
 }
 
-.main-imagem-personagem1{
-    position: absolute;
+.main-imagem-personagem1 {
+  position: absolute;
 
-    width: 40%;
+  width: 40%;
 
-    top: 50%;
-    left: 15%;
+  top: 50%;
+  left: 15%;
 }
 
-.main-conteinerLinks{
-    position: absolute;
+.main-conteinerLinks {
+  position: absolute;
 
-    width: 24%;
+  width: 24%;
 
-    top: 55%;
-    left: 42%;
+  top: 55%;
+  left: 42%;
 }
 
-.main-imagem-personagem2{
-    position: absolute;
+.main-imagem-personagem2 {
+  position: absolute;
 
-    width: 19%;
+  width: 19%;
 
-    top: 55%;
-    right: 14%;
+  top: 55%;
+  right: 14%;
 }
 
+.conteiner-section-atributes {
+  width: 100%;
+  height: auto;
 
-.conteiner-section-atributes{
-    width: 100%;
-    height: auto;
+  background-color: #2d2d2d;
 
+  position: relative;
+  z-index: -1;
+  top: -4px;
 
-    background-color: #2D2D2D;
-
-    position: relative;
-    z-index: -1;
-    top: -4px;
-
-    display: flex;
-    flex-direction: column;
-
+  display: flex;
+  flex-direction: column;
 }
 
-.sectionAtributes-title{
-    text-transform: uppercase;
-    
-    font-family: 'Soreveign';
-    font-style: normal;
-    font-size: 3vw;
+.sectionAtributes-title {
+  text-transform: uppercase;
 
-    color: #ffffff;
+  font-family: 'Soreveign';
+  font-style: normal;
+  font-size: 3vw;
 
-    position: relative;
-    top: 0%;
-    left: 13%;
+  color: #ffffff;
 
-    margin-top: 10%;
-    margin-bottom: 4%;
+  position: relative;
+  top: 0%;
+  left: 13%;
+
+  margin-top: 10%;
+  margin-bottom: 4%;
 }
 
-.sectionAtributes-content-position{
-    position: relative;
-    width: 100%;
-    height: 100%;
+.sectionAtributes-content-position {
+  position: relative;
+  width: 100%;
+  height: 100%;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.sectionAtributes-conteiner-images{
-    position: relative;
-    top: 0%;
-    
+.sectionAtributes-conteiner-images {
+  position: relative;
+  top: 0%;
 
-    /* min-width: 720px;
+  /* min-width: 720px;
     min-height: 300px; */
 
-    width: 90%;
-    max-height: 25vw;
+  width: 90%;
+  max-height: 25vw;
 
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
-.container-images1{
-    width: 50%;
-    height: 100%;
+.container-images1 {
+  width: 50%;
+  height: 100%;
 }
 
-.container-images1 img{
-    width: 100%;
-    height: 100%;
+.container-images1 img {
+  width: 100%;
+  height: 100%;
 }
 
-.conteiner-images2{
-    width: 50%;
-    height: 100%;
+.conteiner-images2 {
+  width: 50%;
+  height: 100%;
 
-    
-    display: flex;
-    flex-wrap: wrap;
-    
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.conteiner-image-overflow{
-    width: 50%;
-    height: 50%;
+.conteiner-image-overflow {
+  width: 50%;
+  height: 50%;
 }
 
-
-.conteiner-image-overflow img{
-    width: 100%;
-    height: 100%;
-
+.conteiner-image-overflow img {
+  width: 100%;
+  height: 100%;
 }
 
 /* Não funciona por algum motivo... */
-#teste:hover{
-    transform:scale(1.25);
+#teste:hover {
+  transform: scale(1.25);
 }
 
-.conteiner-hierarchy{
-    position: relative;
-    top: 0%;
-    
-    width: 90%;
+.conteiner-hierarchy {
+  position: relative;
+  top: 0%;
 
-    margin-top: 4%;
-    margin-bottom: 2%;
+  width: 90%;
 
+  margin-top: 4%;
+  margin-bottom: 2%;
 }
 
-.conteiner-hierarchy img{
-    width: 100%;
-    height: 100%;
-
+.conteiner-hierarchy img {
+  width: 100%;
+  height: 100%;
 }
 
+.sectionAtributes-paragraf {
+  position: relative;
+  top: 0%;
+  right: 5%;
 
-.sectionAtributes-paragraf{
-    position: relative;
-    top: 0%;
-    right: 5%;
+  text-align: end;
+  align-self: flex-end;
 
-    text-align: end;
-    align-self: flex-end;
-    
-    width: 50%;
+  width: 50%;
 
-    font-family: 'Open Sans';
-    font-size: 1rem;
-   
-    z-index: 20;
-    color: #b3b3b3;
+  font-family: 'Open Sans';
+  font-size: 1rem;
+
+  z-index: 20;
+  color: #b3b3b3;
 }
 
-.section-comoJogar-title{
-    text-transform: uppercase;
-    
-    font-family: 'Soreveign';
-    font-style: normal;
-    font-size: 3vw;
+.section-comoJogar-title {
+  text-transform: uppercase;
 
-    margin-top: 8%;
-    margin-bottom: 8%;
+  font-family: 'Soreveign';
+  font-style: normal;
+  font-size: 3vw;
 
-    color: #ffffff;
+  margin-top: 8%;
+  margin-bottom: 8%;
+
+  color: #ffffff;
 }
 
-.section-comoJogar-boneco{
-    position: absolute;
-    bottom: -18%;
-    left: 5%;
+.section-comoJogar-boneco {
+  position: absolute;
+  bottom: -18%;
+  left: 5%;
 
-    width: 25%;
+  width: 25%;
 }
 
-.conteiner-section-download{
-    width: 100%;
-    height: auto;
+.conteiner-section-download {
+  width: 100%;
+  height: auto;
 
-    position: relative;
+  position: relative;
 }
 
-.sectionDownload-content-position{
-    position: relative;
-    top: -1%;
-    z-index: -2;
+.sectionDownload-content-position {
+  position: relative;
+  top: -1%;
+  z-index: -2;
 
-    width: 100%;
-    height: 100%;
-
+  width: 100%;
+  height: 100%;
 }
 
-.conteiner-itens-download{
-    width: 60%;
+.conteiner-itens-download {
+  width: 60%;
 
-    position: relative;
-    top: 10%;
-    
-    margin-left: auto;
-    margin-right: 8%;
-    margin-bottom: 15%;
+  position: relative;
+  top: 10%;
 
-    padding-top: 4%;
+  margin-left: auto;
+  margin-right: 8%;
+  margin-bottom: 15%;
 
+  padding-top: 4%;
 
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
-.conteiner-itens-download img{
-    width: 25%;
+.conteiner-itens-download img {
+  width: 25%;
 }
 
-
-
-
-
-.conteiner-itens-orangeContent{
-    position: relative;
+.conteiner-itens-orangeContent {
+  position: relative;
 }
 
-.sectionDownload-orangeContent-container{
-    width: 63.2%;
-    height: auto;
+.sectionDownload-orangeContent-container {
+  width: 63.2%;
+  height: auto;
 
-    padding-top: 5%;
-    padding-left: 12%;
-    padding-bottom: 0.1%;
+  padding-top: 5%;
+  padding-left: 12%;
+  padding-bottom: 0.1%;
 
-    background-color: #FF5A56;
+  background-color: #ff5a56;
 }
 
-.sectionDownload-orangeContent-title{
-    text-transform: uppercase;
-    
-    font-family: 'Soreveign';
-    font-style: normal;
-    font-size: 3vw;
+.sectionDownload-orangeContent-title {
+  text-transform: uppercase;
 
-    color: #ffffff;
+  font-family: 'Soreveign';
+  font-style: normal;
+  font-size: 3vw;
 
-    margin-top: 2%;
+  color: #ffffff;
+
+  margin-top: 2%;
 }
 
-.sectionDownload-orangeContent-paragraf{
-    width: 60%;
-    margin-top: 3%;
-    
-    font-family: 'Open Sans';
-    font-size: 1.2vw;
-    font-weight: 100;
+.sectionDownload-orangeContent-paragraf {
+  width: 60%;
+  margin-top: 3%;
 
-    color: #ffffff;
+  font-family: 'Open Sans';
+  font-size: 1.2vw;
+  font-weight: 100;
+
+  color: #ffffff;
 }
 
-.sectionDownload-orangeContent-conteinerLinks{
-    margin-top: 3%;
-    width: 60%;
+.sectionDownload-orangeContent-conteinerLinks {
+  margin-top: 3%;
+  width: 60%;
 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.sectionDownload-orangeContent-conteinerLinks img{
-    width: 49%;
-
+.sectionDownload-orangeContent-conteinerLinks img {
+  width: 49%;
 }
 
-.sectionDownload-orangeContent-divider{
-    margin-top: 12%;
-    width: 98% !important;
+.sectionDownload-orangeContent-divider {
+  margin-top: 12%;
+  width: 98% !important;
 }
 
+.sectionDownload-orangeContent-StarWarsPng {
+  width: 30%;
 
-.sectionDownload-orangeContent-StarWarsPng{
-    width: 30%;
-
-    margin-top: 4%;
-    margin-bottom: 5%;
+  margin-top: 4%;
+  margin-bottom: 5%;
 }
 
-.sectionDownload-orangeContent-ParagrafFinal{
-    width: 65%;
-    
-    font-family: 'Open Sans';
-    font-size: 1.2vw;
-    font-weight: 100;
+.sectionDownload-orangeContent-ParagrafFinal {
+  width: 65%;
 
-    color: #ffffffbd;
+  font-family: 'Open Sans';
+  font-size: 1.2vw;
+  font-weight: 100;
 
-    margin-bottom: 3%;
+  color: #ffffffbd;
+
+  margin-bottom: 3%;
 }
 
-.sectionDownload-bonecao{
-    position: absolute;
-    right: 7.2%;
-    top: -15%;
+.sectionDownload-bonecao {
+  position: absolute;
+  right: 7.2%;
+  top: -15%;
 
-    width: 40%;
+  width: 40%;
 }
-
-
 
 /* Prezando responsividade para telas maiores... */
 @media (min-width: 1920px) {
-    .conteiner-header-legiao{
-        /* Ajustei a largura do conteiner*/
-        padding-bottom: 120px;
-        right: 10%;
-        width: auto;
+  .conteiner-header-legiao {
+    /* Ajustei a largura do conteiner*/
+    padding-bottom: 120px;
+    right: 10%;
+    width: auto;
+  }
+  /* Travei a fonte quando chega na largura máxima... */
+  .conteiner-header-legiao h2 {
+    font-size: 30px;
+  }
 
-    }
-        /* Travei a fonte quando chega na largura máxima... */
-    .conteiner-header-legiao h2{
-        font-size: 30px;
-    }
+  .conteiner-header-legiao span {
+    font-size: 30px;
+  }
 
-    .conteiner-header-legiao span{
-        font-size: 30px;
+  .sectionAtributes-title {
+    font-size: 60px;
+  }
 
-    }
+  .sectionAtributes-conteiner-images {
+    /* Removido tamanhos máximos... - CONFLITO */
+  }
 
-    .sectionAtributes-title{
-        font-size: 60px;
+  .section-ComoJogar-title {
+    font-size: 60px;
+  }
 
-    }
+  .sectionDownload-orangeContent-title {
+    font-size: 60px;
+  }
 
-    .sectionAtributes-conteiner-images{
-        /* Removido tamanhos máximos... - CONFLITO */
-    }
+  .sectionDownload-orangeContent-paragraf {
+    font-size: 22px;
+  }
 
-    .section-ComoJogar-title{
-        font-size: 60px;
-
-    }
-
-
-    .sectionDownload-orangeContent-title{
-        font-size: 60px;
-    }
-
-    .sectionDownload-orangeContent-paragraf{
-        font-size: 22px;
-    }
-
-    .sectionDownload-orangeContent-ParagrafFinal{
-        font-size: 22px; 
-    }
+  .sectionDownload-orangeContent-ParagrafFinal {
+    font-size: 22px;
+  }
 }
