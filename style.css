@@ -157,7 +157,6 @@
   background-color: #2d2d2d;
 
   position: relative;
-  z-index: -1;
   top: -4px;
 
   display: flex;
@@ -224,8 +223,29 @@
 }
 
 .conteiner-image-overflow {
-  width: 50%;
-  height: 50%;
+  position: relative;
+  overflow: hidden;
+
+  /* width: 50%;
+  height: 50%; */
+}
+
+.content-box{
+  position: absolute;
+  top: -100%;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(201, 11, 11, 0.356);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition-property: top;
+  transition-duration: 1.2s;
+  transition-timing-function: ease-in-out;
 }
 
 .conteiner-image-overflow img {
@@ -233,9 +253,8 @@
   height: 100%;
 }
 
-/* Não funciona por algum motivo... */
-#teste:hover {
-  transform: scale(1.25);
+.conteiner-image-overflow:hover .content-box{
+  top: 0px;
 }
 
 .conteiner-hierarchy {
@@ -434,7 +453,7 @@
   }
 
   .sectionAtributes-conteiner-images {
-    /* Removido tamanhos máximos... - CONFLITO */
+    
   }
 
   .section-ComoJogar-title {
