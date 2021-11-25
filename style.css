@@ -309,11 +309,9 @@
 
 .conteiner-section-download{
     width: 100%;
-    height: 1000px;
+    height: auto;
 
     position: relative;
-
-    margin-bottom: 100vh;
 }
 
 .sectionDownload-content-position{
@@ -334,47 +332,38 @@
     
     margin-left: auto;
     margin-right: 8%;
+    margin-bottom: 15%;
+
+    padding-top: 4%;
+
 
     display: flex;
     justify-content: space-between;
 
     background-color: #ffffff;
-
-    margin-bottom: 30%;
 }
 
 .conteiner-itens-download img{
-    width: 20%;
+    width: 25%;
 }
+
+
+
+
 
 .conteiner-itens-orangeContent{
     position: relative;
 }
 
-.testeee{
-    position: absolute;
+.sectionDownload-orangeContent-container{
+    width: 63.2%;
+    height: auto;
+
+    padding-top: 5%;
+    padding-left: 12%;
+    padding-bottom: 0.1%;
 
     background-color: #FF5A56;
-    width: 63%;
-    height: 700px;
-}
-
-/* .sectionDownload-background{
-    position: relative;
-    z-index: -3;
-
-    width: 63%;
-} */
-
-.sectionDownload-orangeContent-container{
-    position: absolute;
-    top: 0px;
-
-    left: 10%;
-
-    width: 100%;
-    height: 100%;
-
 }
 
 .sectionDownload-orangeContent-title{
@@ -382,15 +371,15 @@
     
     font-family: 'Soreveign';
     font-style: normal;
-    font-size: 2vw;
+    font-size: 3vw;
 
     color: #ffffff;
 
-    margin-top: 8%;
+    margin-top: 2%;
 }
 
 .sectionDownload-orangeContent-paragraf{
-    width: 35%;
+    width: 60%;
     margin-top: 3%;
     
     font-family: 'Open Sans';
@@ -402,7 +391,7 @@
 
 .sectionDownload-orangeContent-conteinerLinks{
     margin-top: 3%;
-    width: 35%;
+    width: 60%;
 
     display: flex;
     flex-wrap: wrap;
@@ -420,13 +409,34 @@
     width: 98% !important;
 }
 
+
+.sectionDownload-orangeContent-StarWarsPng{
+    width: 30%;
+
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+
+.sectionDownload-orangeContent-ParagrafFinal{
+    width: 65%;
+    
+    font-family: 'Open Sans';
+    font-size: 1.2vw;
+    font-weight: 100;
+
+    color: #ffffffbd;
+
+    margin-bottom: 3%;
+}
+
 .sectionDownload-bonecao{
     position: absolute;
-    right: 9%;
-    top: -10%;
+    right: 7.2%;
+    top: -15%;
 
-    width: 38%;
+    width: 40%;
 }
+
 
 
 /* Prezando responsividade para telas maiores... */
