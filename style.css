@@ -401,7 +401,6 @@
   left: 30%;
   width: 60%;
   height: 600px;
-  
 
   background-color: #1da8a15e;
 
@@ -411,7 +410,7 @@
   background-color: #ffffff;
 }
 
-.card-download{
+.card-download {
   margin-top: 10%;
 
   width: 25%;
@@ -423,30 +422,60 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-
 }
 
-.titleCard{
+.titleCard {
   font-size: 2vw;
   font-weight: 100;
 
   margin-bottom: 8%;
 }
 
-.button-download{
+.conteiner-content-download {
+  position: relative;
+
+  width: 80%;
+  height: auto;
+
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+}
+
+.conteiner-content-download:hover .divisor-animate {
+  background-color: #d74430;
+}
+
+.conteiner-content-download:hover .background-animate {
+  left: 0%;
+}
+
+.divisor-animate {
+  position: absolute;
+  top: 300%;
+
+  width: 40%;
+  height: 10%;
+
+  border-radius: 5px;
+
+  background-color: black;
+
+  transition-duration: 1.2s;
+  transition-property: all;
+  transition-timing-function: ease;
+}
+
+.button-download {
   background-color: black;
   padding: 4% 12%;
   color: whitesmoke;
   overflow: hidden;
   position: relative;
-
 }
 
-.button-download:hover .background-animate{
-  left: 0%;
-}
-
-.background-animate{
+.background-animate {
   position: absolute;
   top: 0px;
   left: -100%;
@@ -461,7 +490,7 @@
   transition-timing-function: ease;
 }
 
-.button-download h3{
+.button-download h3 {
   position: relative;
   z-index: 9;
 
@@ -469,12 +498,12 @@
   font-weight: 100;
 }
 
-.card-paragraf{
+.card-paragraf {
   margin-top: 8%;
   width: 80%;
-  
+
   text-align: center;
-  font-size: 1.0vw;
+  font-size: 1vw;
 }
 
 .conteiner-itens-orangeContent {
@@ -587,7 +616,6 @@
 
   .conteinerLinks-navigation ul li {
     font-size: 25px;
-
   }
 
   .section-comoJogar-title {
