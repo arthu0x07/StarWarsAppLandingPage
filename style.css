@@ -94,7 +94,7 @@
   top: 0%;
 }
 
-.main-cardVermelhoNotext {
+.main-cardVermelho {
   position: absolute;
 
   width: 20%;
@@ -103,6 +103,87 @@
   left: 14%;
 
   z-index: 10;
+}
+
+.main-cardVermelho:hover .conteiner-cardVermelho-text {
+  opacity: 1;
+}
+
+.imagem-cardVermelho-fundo {
+  width: 100%;
+  height: 100%;
+}
+
+.conteiner-cardVermelho-text {
+  position: absolute;
+  top: 0px;
+
+  opacity: 0;
+
+  transition-property: opacity;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+
+  width: 100%;
+  height: 99%;
+
+  background-color: #2d2d2d23; /* apenas para develop */
+}
+
+.cardVermelho-title {
+  margin-top: 22%;
+  line-height: 140%;
+  text-align: center;
+
+  font-weight: 600;
+  font-size: 2.2vw;
+  font-family: 'Open Sans';
+
+  width: 50%;
+
+  color: whitesmoke;
+}
+
+.cardVermelho-paragraf {
+  margin-top: 22%;
+  margin-left: 4%;
+  text-align: start;
+
+  width: 90%;
+
+  font-size: 1vw;
+  font-weight: 100;
+  font-family: 'Open Sans';
+
+  color: whitesmoke;
+}
+
+.cardVermelho-button {
+  margin-top: 18%;
+  background-color: transparent;
+  padding: 3% 8%;
+  font-size: 1vw;
+  color: whitesmoke;
+  border-radius: 5px;
+  border: 2px solid whitesmoke;
+
+  transition-duration: 0.5s;
+  transition-property: all;
+  transition-timing-function: ease;
+}
+
+.cardVermelho-button:hover {
+  color: black;
+  background-color: whitesmoke;
+}
+
+.cardVermelho-button:focus-visible {
+  outline: 0;
 }
 
 .main-cardAboutGame {
@@ -114,21 +195,20 @@
   height: auto;
 
   display: flex;
-
 }
 
-.aboutgame-conteiener-texts{
+.aboutgame-conteiener-texts {
   width: 65%;
   margin-right: 3%;
 }
 
-.aboutgame-conteiener-texts h3{
+.aboutgame-conteiener-texts h3 {
   font-family: 'Open Sans';
   text-align: end;
   font-size: 1.8vw;
 }
 
-.text-divider{
+.text-divider {
   margin-top: 3%;
   margin-bottom: 3%;
 
@@ -139,18 +219,17 @@
   margin-left: auto;
 }
 
-.aboutgame-conteiener-texts p{
+.aboutgame-conteiener-texts p {
   text-align: end;
   font-size: 1.2vw;
 }
 
-.aboutgame-conteiner-imagem{
+.aboutgame-conteiner-imagem {
   width: 50%;
 }
 
-.aboutgame-conteiner-imagem img{
+.aboutgame-conteiner-imagem img {
   width: 100%;
-
 }
 
 .main-divisor {
@@ -645,11 +724,23 @@
     font-size: 30px;
   }
 
-  .aboutgame-conteiener-texts h3{
+  .cardVermelho-title {
+    font-size: 42px;
+  }
+
+  .cardVermelho-paragraf {
+    font-size: 20px;
+  }
+
+  .cardVermelho-button {
+    font-size: 20px;
+  }
+
+  .aboutgame-conteiener-texts h3 {
     font-size: 35px;
   }
 
-  .aboutgame-conteiener-texts p{
+  .aboutgame-conteiener-texts p {
     font-size: 25px;
   }
 
@@ -669,15 +760,15 @@
     font-size: 60px;
   }
 
-  .titleCard{
+  .titleCard {
     font-size: 40px;
   }
 
-  .button-download h3{
+  .button-download h3 {
     font-size: 30px;
   }
 
-  .card-paragraf{
+  .card-paragraf {
     font-size: 20px;
   }
 
