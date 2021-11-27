@@ -107,11 +107,50 @@
 
 .main-cardAboutGame {
   position: absolute;
+  top: 16%;
+  right: 5%;
 
-  width: 44%;
+  width: 50%;
+  height: auto;
 
-  top: 20%;
-  right: 10%;
+  display: flex;
+
+}
+
+.aboutgame-conteiener-texts{
+  width: 65%;
+  margin-right: 3%;
+}
+
+.aboutgame-conteiener-texts h3{
+  font-family: 'Open Sans';
+  text-align: end;
+  font-size: 1.8vw;
+}
+
+.text-divider{
+  margin-top: 3%;
+  margin-bottom: 3%;
+
+  width: 35%;
+  height: 2%;
+  background-color: #2d2d2d;
+
+  margin-left: auto;
+}
+
+.aboutgame-conteiener-texts p{
+  text-align: end;
+  font-size: 1.2vw;
+}
+
+.aboutgame-conteiner-imagem{
+  width: 50%;
+}
+
+.aboutgame-conteiner-imagem img{
+  width: 100%;
+
 }
 
 .main-divisor {
@@ -604,6 +643,14 @@
 
   .conteiner-header-legiao span {
     font-size: 30px;
+  }
+
+  .aboutgame-conteiener-texts h3{
+    font-size: 35px;
+  }
+
+  .aboutgame-conteiener-texts p{
+    font-size: 25px;
   }
 
   .sectionAtributes-title {
