@@ -1017,46 +1017,92 @@
   }
 
   .section-comoJogar-title{
+    position: relative;
+    right: -20%;
     font-size: 4.2vw;
   }
 }
 
-/* 
-.conteiner-images2 {
-  width: 50%;
-  height: 100%;
+@media (max-width: 768px){
+  .section-comoJogar-boneco{
+    width: auto;
+    height: 70vh;
+    top: 95%;
+    left: -35%;
+    z-index: 99;
+  }
 
-  display: flex;
-  flex-wrap: wrap;
+  .conteiner-itens-download{
+    position: relative;
+    width: 100%;
+
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    
+    left: 20%;
+    flex-direction: column;
+  }
+
+  .first-card{
+    margin-top: 0px;
+  }
+
+  .card-download{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .titleCard{
+    font-size: 8vw;
+    font-weight: 200;
+    margin-bottom: 2%;
+  }
+
+  .conteiner-content-download{
+    position: relative;
+    width: 140%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .button-download{
+    background-color: black;
+    padding: 2.5% 6%;
+    color: whitesmoke;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .button-download h3{
+    font-size: 4vw;
+  }
+
+  .card-paragraf{
+    margin-top: 0%;
+    font-size: 4vw;
+    width: 40%;
+  }
+
+  /* aparece depois mas está dentro do conteiner do botao */
+  .divisor-animate{
+    position: absolute;
+    top: 200%;
+    height: 10%;
+
+    width: 10%;
+  }
+
 }
 
-.conteiner-image-overflow {
-  position: relative;
-  overflow: hidden;
-
-  width: 50%;
-  height: 50%;
-}
-
-.content-box {
-  position: absolute;
-  top: -100%;
-
-  width: 100%;
-  height: 100%;
-
-  background-color: rgba(201, 11, 11, 0.356);
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  transition-property: top;
-  transition-duration: 1.2s;
-  transition-timing-function: ease-in-out;
-}
-
-.conteiner-image-overflow img {
-  width: 100%;
-  height: 100%;
+@media (max-width: 768px) {
+  .conteiner-itens-orangeContent{
+    margin-top: 15%;
+  }
 }
