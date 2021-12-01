@@ -788,6 +788,7 @@
   }
 }
 
+/* Escopo da responsividade da main... */
 @media (max-width: 768px){
   .conteiner-section-estrutura{
     position: relative;
@@ -919,8 +920,10 @@
 
   .main-conteinerLinks{
     position: absolute;
-    top: 88.0%;
+    top: 85.0%;
     left: 26%;
+    
+    height: auto;
   }
 
   .conteinerLinks-Title {
@@ -969,47 +972,91 @@
     z-index: 1;  }
 }
 
+/* Escopo de responsividade da seção atributos... */
+@media (max-width: 768px) {
+  .sectionAtributes-title{
+    font-size: 5vw;
+    text-align: center;
+    position: unset;
+  }
+
+  .sectionAtributes-conteiner-images{
+    flex-wrap: wrap;
+    max-height: unset;
+  }
+
+  .container-images1{
+    width: 100%;
+  }
+
+  .conteiner-images2 {
+    width: 100%;
+    height: 100%;
+    
+    margin-bottom: 10%;
+  }
+
+  .conteiner-image-overflow {
+    position: relative;
+    overflow: hidden;
+  
+    width: 100%;
+    height: 50%;
+  }
+
+  .conteiner-hierarchy{
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .sectionAtributes-paragraf{
+    width: 60%;
+    font-size: 2vw;
+    position: relative;
+    right: 10%;
+  }
+
+  .section-comoJogar-title{
+    font-size: 4.2vw;
+  }
+}
+
 /* 
-.conteinerLinks-Title {
+.conteiner-images2 {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.conteiner-image-overflow {
   position: relative;
-  top: -10%;
+  overflow: hidden;
 
-  margin-left: auto;
-
-  width: 60%;
-
-  text-transform: uppercase;
-  line-height: 95%;
-  text-align: end;
-  font-family: 'Open Sans';
-  font-size: 4vw;
-  font-weight: 600;
+  width: 50%;
+  height: 50%;
 }
 
-.conteinerLinks-Title span {
-  font-weight: 900;
-}
-
-.conteinerLinks-navigation {
-  margin-right: 2%;
-}
-
-.conteinerLinks-navigation ul {
-  list-style: none;
-  text-align: end;
-  margin-left: auto;
-
-  width: 63%;
-}
-
-.conteinerLinks-navigation ul li {
-  font-family: 'Open Sans';
-  font-size: 1.3vw;
-  margin-bottom: 4%;
+.content-box {
+  position: absolute;
+  top: -100%;
 
   width: 100%;
+  height: 100%;
 
-  border-radius: 2px;
+  background-color: rgba(201, 11, 11, 0.356);
 
-  padding: 1% 3% 1% 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition-property: top;
+  transition-duration: 1.2s;
+  transition-timing-function: ease-in-out;
+}
+
+.conteiner-image-overflow img {
+  width: 100%;
+  height: 100%;
 }
