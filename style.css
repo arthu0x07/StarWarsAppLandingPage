@@ -1025,11 +1025,11 @@
 
 @media (max-width: 768px){
   .section-comoJogar-boneco{
-    width: auto;
-    height: 70vh;
-    top: 95%;
-    left: -35%;
-    z-index: 99;
+    position: absolute;
+    bottom: -36%;
+    left: -43%;
+    z-index: 9;
+    width: 105%;
   }
 
   .conteiner-itens-download{
