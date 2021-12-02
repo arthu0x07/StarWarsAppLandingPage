@@ -1023,6 +1023,7 @@
   }
 }
 
+/* Escopo de responsividade da seção Como jogar... */
 @media (max-width: 768px){
   .section-comoJogar-boneco{
     position: absolute;
@@ -1104,5 +1105,73 @@
 @media (max-width: 768px) {
   .conteiner-itens-orangeContent{
     margin-top: 15%;
+  }
+
+  /* Conteiner laranja */
+  .sectionDownload-orangeContent-container{
+    width: 100%;
+    height: auto;
+
+    padding-top: 5%;
+    padding-left: 0%;
+    padding-bottom: 40%;
+    margin-bottom: 70%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: unset;
+  }
+
+  .sectionDownload-orangeContent-title{
+    font-size: 14vw;
+    text-align: center;
+    margin-top: 0%;
+  }
+
+  .sectionDownload-orangeContent-paragraf{
+    width: 90%;
+    margin-top: 0%;
+    padding-left: 10%;
+    margin-bottom: 1%;
+
+    font-size: 3.4vw;
+
+    font-weight: 100;
+    color: #ffffff;  
+  }
+
+  .sectionDownload-orangeContent-conteinerLinks{
+    width: 82%;
+    margin: 8% auto 0;
+  }
+
+  .sectionDownload-orangeContent-divider{
+    margin-top: 4%;
+    width: 98% !important;
+  }
+
+  .sectionDownload-orangeContent-StarWarsPng{
+    width: 50%;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0;
+
+    align-self: center;
+  }
+
+  .sectionDownload-orangeContent-ParagrafFinal{
+    width: 80%;
+    margin-top: 4%;
+    margin-bottom: 3%;
+
+    font-size: 3.8vw;
+    align-self: center;
+  }
+
+  .sectionDownload-bonecao{
+    right: 13%;
+    top: 80%;
+    width: 80%;
   }
 }
