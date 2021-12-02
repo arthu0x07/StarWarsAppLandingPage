@@ -530,7 +530,6 @@
   position: relative;
   left: 30%;
   width: 60%;
-  height: 600px;
 
   background-color: #1da8a15e;
 
@@ -643,6 +642,8 @@
 .sectionDownload-orangeContent-container {
   width: 63.2%;
   height: auto;
+
+  margin-top: 20%;
 
   padding-top: 5%;
   padding-left: 12%;
