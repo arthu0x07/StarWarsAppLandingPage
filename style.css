@@ -9,7 +9,11 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  
+
+}
+
+* img{
+  filter: contrast(1.2) brightness(90%);
 }
 
 .wrap {
@@ -47,6 +51,8 @@
   width: 25%;
   position: relative;
   left: 30%;
+
+  filter: brightness(120%) contrast(200%);
 }
 
 .header-imagem-bonecao {
@@ -55,12 +61,15 @@
   right: 2%;
 
   z-index: 9;
+
 }
 
 .header-texto-wars {
   width: 25%;
   position: relative;
   right: 18%;
+
+  filter: brightness(120%) contrast(200%);
 }
 
 .conteiner-header-legiao {
@@ -85,6 +94,8 @@
 
 .imagemCantoMain {
   width: 40%;
+
+  filter: unset;
 }
 
 .main-content-position {
@@ -252,6 +263,8 @@
   top: 50%;
   left: 15%;
   z-index: 1;
+
+  filter: drop-shadow(5px 10px 15px black) contrast(1.2);
 }
 
 .main-conteinerLinks {
@@ -339,6 +352,8 @@
   right: 14%;
 
   z-index: 2;
+
+  filter: drop-shadow(5px 10px 25px black) contrast(1.2);
 }
 
 .conteiner-section-atributes {
@@ -455,6 +470,26 @@
   height: 100%;
 }
 
+#filter-img1{
+  filter: contrast(1.3) brightness(90%);
+}
+
+#filter-img2{
+  filter: contrast(2) brightness(70%);
+}
+
+#filter-img3{
+  filter: contrast(1.2) brightness(70%);
+}
+
+#filter-img4{
+  filter: contrast(1.5) brightness(70%);
+}
+
+#filter-img5{
+  filter: contrast(1.7) brightness(80%);
+}
+
 .conteiner-image-overflow:hover .content-box {
   top: 0px;
 }
@@ -509,6 +544,8 @@
   left: 5%;
 
   width: 25%;
+
+  filter: drop-shadow(5px 10px 15px black) contrast(1.2);
 }
 
 .conteiner-section-download {
@@ -718,6 +755,8 @@
   top: -15%;
 
   width: 40%;
+
+  filter: drop-shadow(5px 10px 25px black) contrast(1.2) brightness(100%);
 }
 
 /* Prezando responsividade para telas maiores... */
@@ -926,6 +965,7 @@
     top: 84%;
     left: 2%;
     z-index: 1;
+
   }
 
   .main-conteinerLinks{
@@ -979,7 +1019,9 @@
 
     top: 83.9%;
     right: 2%;
-    z-index: 1;  }
+    z-index: 1; 
+  
+  }
 }
 
 /* Escopo de responsividade da seção atributos... */
