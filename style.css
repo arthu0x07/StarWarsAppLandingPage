@@ -526,11 +526,11 @@
 
   position: absolute;
   left: 11%;
-  top: 50%;
+  top: 43%;
 }
 
 .content-box-imagesatribute a {
-  border: 5px solid whitesmoke;
+  border: 3px solid whitesmoke;
   border-radius: 2px;
   padding: 2% 7%;
 
@@ -541,8 +541,8 @@
   text-decoration: none;
 
   position: absolute;
-  bottom: 10%;
-  left: 11%;
+  bottom: 8%;
+  left: 4.5%;
 }
 /* Até esse ponto */
 
@@ -578,20 +578,21 @@
 }
 
 .images2-contentbox-fonts h3 {
-  font-size: 1.7vw;
+  font-size: 1.3vw;
+  line-height: 105%;
 }
 
 .images2-contentbox-fonts p {
-  font-size: 0.9vw;
+  font-size: 0.8vw;
   width: 80%;
 }
 
 .images2-contentbox-fonts a {
   border: 2px solid whitesmoke;
   border-radius: 1px;
-  padding: 1% 6%;
+  padding: 1.4% 8.5%;
 
-  font-size: 0.9vw;
+  font-size: 1.1vw;
 }
 
 /* Filtros colocados de forma diferente em cada imagem... */
@@ -931,28 +932,28 @@
   }
 
   /* primeiro card vermelho dos atributos */
-  .content-box-imagesatribute h3{
+  .content-box-imagesatribute h3 {
     font-size: 58px;
   }
 
-  .content-box-imagesatribute p{
+  .content-box-imagesatribute p {
     font-size: 28px;
   }
 
-  .content-box-imagesatribute a{
+  .content-box-imagesatribute a {
     font-size: 26px;
   }
 
   /* segundo card vermelho dos atributos... */
-  .images2-contentbox-fonts h3{
+  .images2-contentbox-fonts h3 {
     font-size: 32px;
   }
 
-  .images2-contentbox-fonts p{
+  .images2-contentbox-fonts p {
     font-size: 17px;
   }
 
-  .images2-contentbox-fonts a{
+  .images2-contentbox-fonts a {
     font-size: 16px;
   }
 
@@ -1200,6 +1201,22 @@
     width: 100%;
   }
 
+  /* Primeiro card vermelho da seção atributos... */
+  .content-box-imagesatribute h3 {
+    font-size: 5vw;
+  }
+
+  .content-box-imagesatribute p {
+    font-size: 3.8vw;
+    top: 43%;
+  }
+
+  .content-box-imagesatribute a {
+    font-size: 3vw;
+    bottom: 8%;
+    border: 3px solid whitesmoke;
+  }
+
   .conteiner-images2 {
     width: 100%;
     height: auto;
@@ -1207,6 +1224,11 @@
     margin-bottom: 10%;
 
     position: unset;
+  }
+
+  /* Segundo card vermelho da seção atributos... */
+  .images2-contentbox-fonts a {
+    padding: 2% 7%;
   }
 
   .conteiner-image-overflow {
