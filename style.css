@@ -649,10 +649,10 @@
   top: 0%;
   right: 5%;
 
-  text-align: end;
+  text-align: start;
   align-self: flex-end;
 
-  width: 50%;
+  width: 65%;
 
   font-family: 'Open Sans';
   font-size: 1rem;
@@ -812,7 +812,7 @@
 }
 
 /* Modifica apenas o valor do primeiro card para manter a igualdade... :D */
-#firstCardParagraf{
+#firstCardParagraf {
   font-size: 1.05vw;
   font-weight: 400;
 }
@@ -1299,7 +1299,7 @@
     align-items: center;
   }
 
-  #firstCardParagraf{
+  #firstCardParagraf {
     font-size: 3.5vw;
   }
 
@@ -1421,6 +1421,3 @@
     width: 80%;
   }
 }
-
-/* Correção conteiner atributos - Imagens com tamanhos dife
-rentes -> corrigido removendo height de um conteiner e usando position absolute para referenciar o conteiner pai para seguir a altura do primeiro conteiner*/
