@@ -773,10 +773,11 @@
 
 .button-download {
   background-color: black;
-  padding: 4% 12%;
+  padding: 7% 12%;
   color: whitesmoke;
   overflow: hidden;
   position: relative;
+  width: 100%;
 }
 
 .background-animate {
@@ -803,11 +804,17 @@
 }
 
 .card-paragraf {
-  margin-top: 8%;
-  width: 80%;
+  margin-top: 15%;
+  width: 60%;
 
   text-align: center;
-  font-size: 1vw;
+  font-size: 1.3vw;
+}
+
+/* Modifica apenas o valor do primeiro card para manter a igualdade... :D */
+#firstCardParagraf{
+  font-size: 1.05vw;
+  font-weight: 400;
 }
 
 .conteiner-itens-orangeContent {
@@ -1292,6 +1299,10 @@
     align-items: center;
   }
 
+  #firstCardParagraf{
+    font-size: 3.5vw;
+  }
+
   .titleCard {
     font-size: 8vw;
     font-weight: 200;
@@ -1308,6 +1319,7 @@
   }
 
   .button-download {
+    width: 30%;
     background-color: black;
     padding: 2.5% 6%;
     color: whitesmoke;
