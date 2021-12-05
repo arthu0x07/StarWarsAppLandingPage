@@ -904,7 +904,6 @@
   filter: drop-shadow(5px 10px 25px black) contrast(1.2) brightness(100%);
 }
 
-/* Comentar as seções aqui dentro para diferenciar... */
 /* Prezando responsividade para telas maiores... */
 @media (min-width: 1920px) {
   .conteiner-header-legiao {
@@ -993,6 +992,10 @@
   }
 
   .card-paragraf {
+    font-size: 20px;
+  }
+
+  #firstCardParagraf{
     font-size: 20px;
   }
 
