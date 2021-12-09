@@ -481,7 +481,7 @@
 .content-box-imagesatribute {
   position: absolute;
   bottom: 100%;
-  z-index: -1;
+  z-index: -10;
   opacity: 0;
 
   width: 107%;
@@ -495,7 +495,7 @@
   justify-content: center;
   align-items: center;
 
-  transition-property: z-index bottom;
+  transition-property: all;
   transition-duration: 1.2s;
   transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 
